@@ -20,7 +20,7 @@ const NODE_ENV = JSON.stringify('development')
 
 export default merge(prodEnv, {
     NODE_ENV: NODE_ENV,
-    LOCAL_DEV_URL: JSON.stringify('http://dev.paas-edu.bktencent.com'),
+    LOCAL_DEV_URL: JSON.stringify('http://dev.paas.cloudct.com'),
     LOCAL_DEV_PORT: JSON.stringify('8080'),
     AJAX_URL_PREFIX: JSON.stringify('bk_api'),
     AJAX_MOCK_PARAM: JSON.stringify('mock-file'),
